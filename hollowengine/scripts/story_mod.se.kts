@@ -88,7 +88,7 @@ wait {2.sec}
 npc say {"Ладно, вот ваш меч."}
 wait {2.sec}
 
-execute{"/give @a minecraft:diamond"}
+execute{"/give @a fire_items:fire_sword"}
 
 npc say {"А теперь прыгайте в глотку статуи."}
 
@@ -213,4 +213,4 @@ npc say {"И ещё..."}
 wait {2.sec}
 npc say {"Вот вам божественный коктейль!!!"}
 
-execute{"give @a minecraft:diamond"}
+execute{"give @a fire_items:fire_flesh"}
